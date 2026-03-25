@@ -673,7 +673,7 @@ export function Navbar() {
             </button>
 
             {isNotificationsOpen && (
-              <div className="absolute right-0 top-[calc(100%+12px)] w-[490px] bg-white border border-[#EAECF0] rounded-[16px] shadow-[0_8px_30px_rgba(0,0,0,0.08)] overflow-hidden z-50 flex flex-col max-sm:w-[calc(100vw-32px)]">
+              <div className="absolute -right-14 sm:right-0 top-[calc(100%+12px)] w-[490px] bg-white border border-[#EAECF0] rounded-[16px] shadow-[0_8px_30px_rgba(0,0,0,0.08)] overflow-hidden z-50 flex flex-col max-sm:w-[calc(100vw-32px)]">
                 <div className="px-5 pt-5 pb-4 border-b border-gray-100 flex items-center justify-between">
                   <h3 className="text-[16px] font-bold text-[#171717]">Notifications</h3>
                   <button className="text-[#00A0E3] text-[13px] font-medium hover:underline">
