@@ -38,7 +38,9 @@ export default function UserLayout({
 
     <div className="sidebar-wrapper" >
       <Sidebar /></div>
+ 
       <div className="flex-1 w-full max-w-[100vw] overflow-x-hidden main-content flex flex-col min-h-screen pt-[76px]">
+ 
         <Navbar />
         <main className="flex-1 w-full bg-[#FFFFFF]">
           {children}

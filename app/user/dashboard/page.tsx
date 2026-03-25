@@ -262,11 +262,13 @@ export default function DashboardComponent() {
           >
             <div>
               {/* Reduced mobile margin (mb-3) and increased mobile title font to match the design */}
+ 
               <div className="flex items-center justify-between sm:block mb-3 sm:mb-4">
                 <h3 className="text-[18px] sm:text-[16px] font-bold sm:font-semibold text-[#171717]">
                   {pkg.title}
                 </h3>
                 
+ 
                 
                 <button className="sm:hidden bg-[#00A0E3] hover:bg-[#008bc5] text-white px-5 py-2 rounded-[8px] text-[14px] font-bold transition-colors shrink-0">
                   {pkg.buttonText}

@@ -401,7 +401,9 @@ function MobileSidebar({
           position: "fixed",
           top: 0,
           left: 0,
+ 
           height: "100dvh",
+ 
           width: "280px",
           backgroundColor: "#fff",
           zIndex: 9999,
@@ -444,8 +446,11 @@ function MobileSidebar({
         {/* Nav */}
         <nav
           style={{
+ 
+ 
             flex: "1 1 0",
             minHeight: 0, 
+ 
             overflowY: "auto",
             padding: "16px",
             scrollbarWidth: "none",
@@ -671,9 +676,11 @@ export function Navbar() {
               <Bell className="w-[20px] h-[20px]" strokeWidth={1.5} />
               <span className="absolute top-[9px] right-[10px] w-[6px] h-[6px] bg-[#00A0E3] rounded-full ring-2 ring-white"></span>
             </button>
-
+ 
+{/* Notifications */}
             {isNotificationsOpen && (
               <div className="absolute -right-14 sm:right-0 top-[calc(100%+12px)] w-[490px] bg-white border border-[#EAECF0] rounded-[16px] shadow-[0_8px_30px_rgba(0,0,0,0.08)] overflow-hidden z-50 flex flex-col max-sm:w-[calc(100vw-32px)]">
+ 
                 <div className="px-5 pt-5 pb-4 border-b border-gray-100 flex items-center justify-between">
                   <h3 className="text-[16px] font-bold text-[#171717]">Notifications</h3>
                   <button className="text-[#00A0E3] text-[13px] font-medium hover:underline">
