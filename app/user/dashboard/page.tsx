@@ -262,13 +262,13 @@ export default function DashboardComponent() {
           >
             <div>
               {/* Reduced mobile margin (mb-3) and increased mobile title font to match the design */}
-              <div className="flex items-center justify-start sm:block mb-3 sm:mb-4">
+ 
+              <div className="flex items-center justify-between sm:block mb-3 sm:mb-4">
                 <h3 className="text-[18px] sm:text-[16px] font-bold sm:font-semibold text-[#171717]">
                   {pkg.title}
                 </h3>
-                <h3 className="text-[18px] invisible md:hidden sm:text-[16px] mr-4 px-4 font-bold sm:font-semibold text-[#171717]">
-                  {pkg.title}
-                </h3>
+                
+ 
                 
                 <button className="sm:hidden bg-[#00A0E3] hover:bg-[#008bc5] text-white px-5 py-2 rounded-[8px] text-[14px] font-bold transition-colors shrink-0">
                   {pkg.buttonText}
@@ -550,7 +550,7 @@ export default function DashboardComponent() {
           </div>
         </div>
       </div>
-
+{/* Footer */}
       {/* --- FOOTER --- */}
       <div className="border-t border-[#EAECF0] mt-4 md:mt-4 pt-4 md:pt-4 flex justify-center w-full">
         <p className="text-[#A0AAB5] text-[13px] font-medium">

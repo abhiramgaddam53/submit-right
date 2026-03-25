@@ -1066,7 +1066,7 @@ export default function ServicesPackComponent() {
           </div>
         </div>
       </div>
-
+{/* Footer */}
       {/* --- FOOTER --- */}
       <div className="border-t border-[#EAECF0] mt-4 md:mt-4 pt-4 md:pt-4 flex justify-center w-full">
         <p className="text-[#A0AAB5] text-[13px] font-medium">
