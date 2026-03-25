@@ -401,7 +401,7 @@ function MobileSidebar({
           position: "fixed",
           top: 0,
           left: 0,
-          height: "100%",
+          height: "100dvh",
           width: "280px",
           backgroundColor: "#fff",
           zIndex: 9999,
@@ -444,7 +444,8 @@ function MobileSidebar({
         {/* Nav */}
         <nav
           style={{
-            flex: 1,
+            flex: "1 1 0",
+            minHeight: 0, 
             overflowY: "auto",
             padding: "16px",
             scrollbarWidth: "none",
